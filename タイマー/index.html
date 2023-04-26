@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Timer App</title>
+  <style>
+    body {
+      background-color: #fff;
+      color: #000;
+      font-family: Arial, sans-serif;
+      font-size: 4rem;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    #timer {
+      margin-top: 10%;
+    }
+    #buttons {
+      position: fixed;
+      bottom: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    button {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      font-size: 2rem;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="timer">00:00:00:000</div>
+  <div id="buttons">
+    <button id="start">Start</button>
+    <button id="pause">Stop</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
